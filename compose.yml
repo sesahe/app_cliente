@@ -1,0 +1,7 @@
+services:
+  php:
+    image: sesahe/app_servidor:v1
+    container_name: app_servidor_container
+    ports:
+      - "8080:80"
+  
