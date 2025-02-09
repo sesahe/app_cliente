@@ -22,8 +22,8 @@ jobs:
       - name: Build and push PHP Docker image
         run: |
           cd app
-          docker build -t ${{ secrets.DOCKER_USERNAME }}/app_servidor:v1 .
-          docker push ${{ secrets.DOCKER_USERNAME }}/app_servidor:v1
+          docker build -t ${{ secrets.DOCKER_USERNAME }}/app_cliente:v1 .
+          docker push ${{ secrets.DOCKER_USERNAME }}/app_cliente:v1
 
       - name: Transfer compose.yml to remote server
         uses: appleboy/scp-action@master

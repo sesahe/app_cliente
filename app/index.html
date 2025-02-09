@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3</title>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container" class="grid-container">
+        <div id="particles-js">
+            <div class="form-container">
+                <form action="">
+                    <legend>Enter a Planet Name</legend>
+                    <input type="text" placeholder="'Earth'" required><br>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+            <div class="table-container">
+                <h1>Planet Information</h1>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Property</th>
+                            <th>Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Name</strong></td>
+                            <td id="name">Earth</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Distance (Light Years)</strong></td>
+                            <td id="distance">0</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Host Star Mass</strong></td>
+                            <td id="host-mass">1</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Host Star Temperature</strong></td>
+                            <td id="host-temp">6000 K</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Mass</strong></td>
+                            <td id="mass">0.00315</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Period (Earth days)</strong></td>
+                            <td id="period">365.2</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Radius</strong></td>
+                            <td id="radius">0.0892</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Semi-Major Axis</strong></td>
+                            <td id="semima">1 AU</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Temperature</strong></td>
+                            <td id="temperature">288 K</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <button id="home">Back</button>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="index.js"></script>
+</body>
+
+</html>
